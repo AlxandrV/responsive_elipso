@@ -1,6 +1,7 @@
 :root{
     --color-fonts-primary: #5B5766;
     --color-fonts-secondary: #554D89;
+    --color-white: white;
     --bg-color-gradient: linear-gradient(45deg, rgba(104,82,237,1) 0%, rgba(104,82,237,1) 50%, rgba(186,67,252,1) 100%);
     --bg-color-secondary: #6852ED;
     --width-content: 59.375%;
@@ -34,6 +35,11 @@
     margin: 0;
 }
 
+/* Width / height ---------------*/
+.w-50{
+    width: 50%;
+}
+
 /* Body -------------------------*/
 a{
     color: var(--color-fonts-primary);
@@ -48,6 +54,18 @@ ul{
 body{
     margin: 0;
     font-family: 'Nunito', sans-serif;
+    color: var(--color-fonts-primary);
+}
+
+.button{
+    background: var(--bg-color-gradient);
+    border: none;
+    border-radius: 40px;
+    height: 3.125rem;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header -----------------------*/
@@ -105,4 +123,29 @@ body > div{
     top: -62px;
     transform: rotate(-45deg);
     z-index: -1;
+}
+
+/* Main --------------------------------*/
+#consultation{
+    margin-top: 18.75rem;
+    margin-bottom: 21.125rem;
+    margin-left: 24.375rem;
+    width: 22.7%;
+}
+
+#consultation > h2{
+    color: var(--color-fonts-secondary);
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+#consultation > p{
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+}
+
+#consultation > div a{
+    margin-left: 1.875rem;
+    color: var(--color-fonts-secondary);
 }
