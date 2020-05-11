@@ -56,13 +56,12 @@ header{
 }
 
 header > nav{
-    width: 56.22%;
     height: 4.355rem;
     align-items: end;
 }
 
 header ul{
-    width: 75%;
+    width: 42.19%;
     justify-content: space-around;
     height: 100%;
 }
@@ -80,5 +79,30 @@ header li:hover > a{
 }
 
 header li:hover{
-    border-image: linear-gradient(45deg, rgba(104,82,237,1) 0%, rgba(104,82,237,1) 50%, rgba(186,67,252,1) 100%) 1 0 0/ 1px;
+    border-image: var(--bg-color-gradient) 1 0 0/ 1px;
+}
+
+header div{
+    height: 57%;
+    width: 32.45%;
+    border: 1px solid #D5D5D5;
+    border-radius: 25px;
+    padding: 0 1.25rem;
+}
+
+header input{
+    border: none;
+    background: transparent;
+}
+
+body > div{
+    width: 1369px;
+    height: 673px;
+    background-color: var(--bg-color-secondary);
+    border-radius: 336.5px;
+    position: absolute;
+    right: -352px;
+    top: -62px;
+    transform: rotate(-45deg);
+    z-index: -1;
 }
