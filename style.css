@@ -1,0 +1,84 @@
+:root{
+    --color-fonts-primary: #5B5766;
+    --color-fonts-secondary: #554D89;
+    --bg-color-gradient: linear-gradient(45deg, rgba(104,82,237,1) 0%, rgba(104,82,237,1) 50%, rgba(186,67,252,1) 100%);
+    --bg-color-secondary: #6852ED;
+    --width-content: 59.375%;
+
+}
+
+/* Flex -------------------------*/
+.d-flex{
+    display: flex;
+}
+
+.jc-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* Fonts ------------------------*/
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Margin / Padding -------------*/
+.m-auto{
+    margin: auto;
+}
+
+.m-none{
+    margin: 0;
+}
+
+/* Body -------------------------*/
+a{
+    color: var(--color-fonts-primary);
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Header -----------------------*/
+header{
+    width: var(--width-content);
+}
+
+header > nav{
+    width: 56.22%;
+    height: 4.355rem;
+    align-items: end;
+}
+
+header ul{
+    width: 75%;
+    justify-content: space-around;
+    height: 100%;
+}
+
+header li{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+header li:hover > a{
+    color: var(--color-fonts-secondary);
+    font-weight: bold;
+}
+
+header li:hover{
+    border-image: linear-gradient(45deg, rgba(104,82,237,1) 0%, rgba(104,82,237,1) 50%, rgba(186,67,252,1) 100%) 1 0 0/ 1px;
+}
