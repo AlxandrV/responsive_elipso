@@ -17,6 +17,10 @@
     justify-content: space-between;
 }
 
+.jc-center{
+    justify-content: center;
+}
+
 .align-center{
     align-items: center;
 }
@@ -89,7 +93,6 @@ header li{
     width: 100%;
     display: flex;
     align-items: end;
-    justify-content: center;
 }
 
 header li:hover > a{
@@ -198,7 +201,6 @@ body > div{
 }
 
 #price > div > div > p{
-    justify-content: center;
     height: 1.625rem;
     font-size: .625rem;
     color: #EF7171;
@@ -213,7 +215,6 @@ body > div{
     background-color: rgba(225, 228, 237, .3);
     margin-bottom: 7.5rem;
     height: 33.4375rem;
-    justify-content: center;
 }
 
 #testimonial > div:first-child{
@@ -259,3 +260,37 @@ body > div{
 }
 */
 
+#services > div{
+    width: var(--width-content);
+    height: 32.375rem;
+}
+
+#services > div > div{
+    width: var(--width-container);
+}
+
+#services > div > div{
+    flex-direction: column;
+}
+
+#services > div > div:nth-child(2){
+    justify-content: end;
+}
+
+#services > div > div:nth-child(1) > div{
+    margin-bottom: 1.875rem;
+}
+
+#services > div > div:nth-child(2) > div{
+    margin-top: 1.875rem;
+}
+
+#services > div > div > div{
+    border-radius: 10px;
+    box-shadow: 0 0 20px #E1E4ED;
+    height: 44.2%;
+}
+
+.hover{
+    display: none;
+}
