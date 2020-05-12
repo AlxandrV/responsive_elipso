@@ -333,3 +333,30 @@ body > div{
 #services > div > div > div:hover > h5{
     color: var(--color-white);
 }
+
+#community > div{
+    width: var(--width-content);
+    margin-bottom: 7.5rem;
+}
+
+#community span{
+    width: 57.1%;
+    height: 29.625rem;
+    background-image: url(media/batman-illustration.jpg);
+    background-repeat: no-repeat;
+    border-radius: 237px 237px 237px 80px;
+}
+
+#community > div > div{
+    width: 36.5%;
+}
+
+#community h4{
+    color: var(--color-fonts-secondary);
+    font-size: 2.125rem;
+}
+
+#community a{
+    margin-left: 1.875rem;
+    color: var(--color-fonts-secondary);
+}
