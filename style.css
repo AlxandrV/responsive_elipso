@@ -578,3 +578,48 @@ footer span:nth-of-type(2){
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width: 575.98px){
+    nav ul{
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: auto;
+    }
+
+    nav li{
+        width: 50%;
+    }
+
+    nav > div{
+        width: 80%;
+    }
+
+    #consultation{
+        width: 90%;
+    }
+
+    :root{
+        --width-container: 90%;
+    }
+
+    #testimonial > div:first-child{
+        width: 90%;
+    }
+
+    #community > div > div{
+        width: 90%;
+    }
+
+    footer form{
+        flex-wrap: wrap;
+    }
+
+    footer input[type="email"]{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    footer input[type="submit"]{
+        width: 25%;
+    }
+}
