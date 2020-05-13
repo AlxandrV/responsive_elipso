@@ -462,4 +462,83 @@ footer span:nth-of-type(2){
     .content{
         max-width: 900px;
     }
+
+    #testimonial{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    body > div{
+        display: none;
+    }
+
+    nav{
+        margin: 1rem 5%;
+    }
+    nav.d-flex{
+        display: block;
+    }
+
+    nav ul{
+        width: 70%;
+        height: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    #consultation{
+        width: 50%;
+        margin: 7.5rem auto;
+    }
+
+    #price{
+        height: auto;
+    }
+
+    #price > div{
+        flex-wrap: wrap;
+        max-width: 90%;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    #price > div > div{
+        margin-bottom: 2rem;
+    }
+
+    :root{
+        --width-container: 40%;
+    }
+
+    #testimonial > div:nth-child(3){
+        display: none;
+    }
+
+    #services > div{
+        flex-wrap: wrap;
+        max-width: 90%;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    #community > div{
+        width: 90%;
+    }
+
+    #community > div > div > div > p:nth-child(2){
+        text-align: center;
+    }
+
+    #community > div > div > div > p > a{
+        margin: 0;
+    }
+
+    footer{
+        width: 90%;
+        margin: auto;
+    }
+
+    footer > div:nth-child(2) > div{
+        margin-top: 2rem;
+    }
 }
